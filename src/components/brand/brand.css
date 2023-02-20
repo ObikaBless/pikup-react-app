@@ -1,0 +1,17 @@
+.pikup__brand{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.pikup__brand div{
+    flex: 1;
+    max-width: 150px;
+    min-width: 120px;
+    margin: 1px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

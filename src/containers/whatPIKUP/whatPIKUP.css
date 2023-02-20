@@ -1,0 +1,110 @@
+.pikup__whatpikup{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-footer);
+
+    
+   
+    background:-moz-radial-gradient(circle at 30% -100%, #040C18 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    
+    background:-webkit-radial-gradient(circle at 30% -100%, #040C18 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    background:-o-radial-gradient(circle at 30% -100%, #040C18 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+
+    background:-ms-radial-gradient(circle at 30% -100%, #040C18 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+
+    background:radial-gradient(circle at 30% -100%, #040C18 25%, rgba(4, 44, 84, 1) 85%, rgba(27, 120, 222, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+}
+.pikup__whatpikup-feature{
+    display: flex;
+}
+.pikup__whatpikup-feature .pikup__features-container__feature{
+    margin: 0;
+}
+.pikup__whatpikup-feature .pikup__features-container__feature-text{
+    max-width: 700px;
+}
+.pikup__whatpikup-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4rem 0 2rem;
+}
+.pikup__whatpikup-heading h1{
+    font-size: 34px;
+    line-height: 45px;
+    font-weight: 800;
+    max-width: 510px;
+    font-family: var(--font-family);
+}
+.pikup__whatpikup-heading p{
+     font-family: var(--font-family);
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 30px;
+     color: var(--color-subtext);
+     cursor: pointer;
+}
+.pikup__whatpikup-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+
+.pikup__whatpikup-container .pikup__features-container__feature {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+
+.pikup__whatpikup-container .pikup__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+@media screen and (max-width: 850px) {
+    .pikup__whatpikup-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .pikup__whatpikup-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .pikup__whatpikup-feature .pikup__features-container__feature {
+        flex-direction: column;
+    }
+
+    .pikup__whatpikup-feature .pikup__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .pikup__whatpikup-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .pikup__whatpikup-container .pickup__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
