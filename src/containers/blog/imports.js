@@ -1,8 +1,8 @@
-import blog1 from '../../assets/blog1.png';
-import blog2 from '../../assets/blog2.png';
-import blog3 from '../../assets/blog3.png';
-import blog4 from '../../assets/blog4.png';
-import blog5 from '../../assets/blog5.png';
+import blog1 from '../../assets/blog1.jfif';
+import blog2 from '../../assets/blog2.jfif';
+import blog3 from '../../assets/blog3.jfif';
+import blog4 from '../../assets/blog4.jfif';
+import blog5 from '../../assets/blog5.jfif';
 
 export{
     blog1,
